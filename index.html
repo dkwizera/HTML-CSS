@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University website </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <img src="./logo.jpg" alt="logo">
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h>The Biggest University in Rwanda</h>
+                <p>we offer many faculties which are offering good jobs in the market,
+                    with only skilled and experienced lectuleres.
+                </p>
+                <a href="" class="hero-btn">Vist Us To Know More</a>
+            </div>
+        </section>
+        <!----------------course------------>
+        <section class="course">
+            <h2>Courses we offer</h2>
+            <p> we offer different faculties in diverse campuses around the country</p>
+            <div class="row">
+                <div class="course-col">
+                <h2> POST GRADUATE</h2>
+                <P>faculties in this lever are many</P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="course-col">
+                 <h2> UNDER GRADUATE</h2>
+                <P>CE CAVEM CASS INCLUSIVE EDUCATION</P>
+            </div>
+            </div>
+            <section>
+
+                <!----------campus--------->
+            </section class="campus">
+            <h1>we have many campus such as</h1>
+            <p>
+                <ul>
+                    <li>Gikondo campus</li>
+                    <li>Huye campus</li>
+                    <li>Remera campus</li>
+                    <li>Nyagatare campus</li>
+                    <li>Busogo campus</li>
+                </ul>
+            </p>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!---------javascript for toggle menu----------->
+
+        <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showmenu(){
+                navlinks.style.right ="0";
+            }
+            function hidemenu(){
+                navlinks.style.right ="200";
+            }
+        </script>
+    </body>
+</html>
